@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 public class IPAddress {
     public static void run() {
         // Endereço IP na forma de array de bytes
-        byte address1[] = { (byte)177, (byte)52, (byte)222, (byte)11 };
+        byte[] address1 = { (byte)177, (byte)52, (byte)222, (byte)11 };
 
         try
         {

@@ -9,7 +9,7 @@ import br.eti.gregori.utilitariostransporte.udp.UDPServer;
 import java.util.Scanner;
 
 public class TextInterface {
-    private Scanner reader;
+    private final Scanner reader;
 
     public TextInterface() {
         reader = new Scanner(System.in);
